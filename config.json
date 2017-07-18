@@ -1,0 +1,93 @@
+{
+  "groupOutputByFile": true,
+  "reporterOptions": {
+    "columns": [
+      "lineData",
+      "severity",
+      "description",
+      "rule"
+    ],
+    "columnSplitter": "  ",
+    "showHeaders": false,
+    "truncate": true
+  },
+  "exclude": ["node_modules/**/*.styl"],
+  "brackets": {
+    "expect": "never",
+    "error": true
+  },
+  "colons": {
+    "expect": "always",
+    "error": true
+  },
+  "colors": "always",
+  "commaSpace": {
+    "expect": "always",
+    "error": true
+  },
+  "commentSpace": {
+    "expect": "always",
+    "error": true
+  },
+  "cssLiteral": "never",
+  "duplicates": {
+    "expect": true,
+    "error": true
+  },
+  "globalDupe": true,
+  "efficient": {
+    "expect": "always",
+    "error": true
+  },
+  "indentPref": {
+    "expect": 2,
+    "error": true
+  },
+  "mixed": true,
+  "leadingZero": {
+    "expect": "always",
+    "error": true
+  },
+  "namingConvention": {
+    "expect": "^[$#.{:]+(coral3?-.+|[a-z0-9\\-]+)$",
+    "error": true
+  },
+  "namingConventionStrict": true,
+  "noImportant": true,
+  "parenSpace": {
+    "expect": "never",
+    "error": true
+  },
+  "prefixVarsWithDollar": {
+    "expect": "always",
+    "error": true
+  },
+  "quotePref": {
+    "expect": "single",
+    "error": true
+  },
+  "semicolons": {
+    "expect": "never",
+    "error": true
+  },
+  "stackedProperties": {
+    "expect": "never",
+    "error": true
+  },
+  "trailingWhitespace": {
+    "expect": "never",
+    "error": true
+  },
+  "universal": {
+    "expect": "never",
+    "error": true
+  },
+  "valid": {
+    "expect": true,
+    "error": true
+  },
+  "zeroUnits": {
+    "expect": "never",
+    "error": true
+  }
+}

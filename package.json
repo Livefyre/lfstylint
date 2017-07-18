@@ -1,0 +1,20 @@
+{
+  "name": "lfstylint",
+  "version": "1.0.0",
+  "description": "Linter for stylus",
+  "bin": {
+    "lfstylint": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Livefyre/lfstylint.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Livefyre/lfstylint/issues"
+  },
+  "homepage": "https://github.com/Livefyre/lfstylint#readme",
+  "dependencies": {
+    "stylint": "^1.5.9"
+  }
+}
