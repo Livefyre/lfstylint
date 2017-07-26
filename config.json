@@ -35,10 +35,6 @@
     "error": true
   },
   "globalDupe": true,
-  "efficient": {
-    "expect": "always",
-    "error": true
-  },
   "indentPref": {
     "expect": 2,
     "error": true
@@ -49,7 +45,7 @@
     "error": true
   },
   "namingConvention": {
-    "expect": "^[$#.{:]+(coral3?-.+|[a-z0-9\\-]+)$",
+    "expect": "^[$#.{:]+(coral3?-[a-zA-Z0-9\\-,]+|[a-z0-9\\-,]+)$",
     "error": true
   },
   "namingConventionStrict": true,
