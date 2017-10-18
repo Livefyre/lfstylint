@@ -20,7 +20,10 @@
     "expect": "always",
     "error": true
   },
-  "colors": "always",
+  "colors": {
+    "expect": "always",
+    "error": true
+  },
   "commaSpace": {
     "expect": "always",
     "error": true
